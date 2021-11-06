@@ -8,7 +8,7 @@ from bot import BotDialog
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-botsettings = BotFrameworkAdapterSettings("","")
+botsettings = BotFrameworkAdapterSettings("444217b8-a823-493e-8ee2-afd07ccc796d","Tyd7Q~YNFgayOrVLasjmM4KrchENi3ab5MmXv")
 botadapter = BotFrameworkAdapter(botsettings)
 
 CONMEMORY = ConversationState(MemoryStorage())
