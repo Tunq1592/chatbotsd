@@ -1,2 +1,5 @@
 botbuilder-core>=4.7.0
 aiohttp
+botbuilder-integration-aiohttp>=4.13.0
+botbuilder-dialogs>=4.13.0
+
